@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="jumbotron d-flex justify-content-center bg-transparent">
+    <h1 class="font-weight-bold"><font color="white">Portfolio</font></h1>
+</div>
+
+<div class="d-flex flex-wrap justify-content-center">
+<div class="card ml-4 mr-4 mb-3 h-100" style="width: 18rem; top: 20px">
+  <img src="{{url_for('static', filename='python.png')}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Python Practice</h5>
+    <p class="card-text">Small projects that I have done in my spare time to practice Python concepts which include some HackerRank Questions and a guessing game.</p>
+    <a href="https://github.com/alancastilleja/Python-Practice" class="card-link">Github Link</a>
+  </div>
+</div>
+<div class="card ml-4 mr-4 mb-3 h-100" style="width: 18rem; top: 20px">
+  <img src="{{url_for('static', filename='R.png')}}" class="card-img-top" alt="..." height="250">
+  <div class="card-body">
+    <h5 class="card-title">R Practice</h5>
+    <p class="card-text">practice and implementation of R concepts specifically in Data visualization</p>
+    <a href="https://github.com/alancastilleja/R-practice" class="card-link">Github Link</a>
+  </div>
+</div>
+<div class="card ml-4 mr-4 mb-3" style="width: 18rem; top: 20px">
+  <img src="{{url_for('static', filename='html.png')}}" class="card-img-top" alt="..." height="300">
+  <div class="card-body">
+    <h5 class="card-title">HTML/CSS/Bootstrap Practice</h5>
+    <p class="card-text">Practicing basic concepts in HTML, CSS, and utilizing Bootstrap 4</p>
+    <a href="https://github.com/alancastilleja/HTML-CSS-Bootstrap-Flask" class="card-link">Github Link</a>
+  </div>
+</div>
+<div class="card ml-4 mr-4 mb-3" style="width: 18rem; top: 20px">
+  <img src="{{url_for('static', filename='flask.png')}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Flask Blog Site Project</h5>
+    <p class="card-text">This Flask project is practicing basic concepts such as creating different models and templates while utilizing different modules such FlaskForm and WTforms</p>
+    <a href="https://github.com/alancastilleja/FLASK-practice-project" class="card-link">Github Link</a>
+  </div>
+</div>
+<div class="card ml-4 mr-4 mb-3" style="width: 18rem; top: 20px">
+  <img src="{{url_for('static', filename='insight.png')}}" class="card-img-top" alt="..." height="140" width="500">
+  <div class="card-body">
+    <h5 class="card-title">Insight Data Science DC project</h5>
+    <p class="card-text">The proposal would require all miners to take the maximum coinbase reward
+instead of being allowed to take less than the maximum reward.</p>
+    <a href="https://github.com/alancastilleja/Insight2" class="card-link">Github Link</a>
+  </div>
+</div>
+</div>
+
+{% endblock %}

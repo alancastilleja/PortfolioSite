@@ -1,0 +1,43 @@
+.foot {
+   color:white;
+}
+
+.brandname{
+    font-size: 1.2em;
+}
+
+.under{
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+.icons{
+    font-size: 3em;
+    color: white;
+    margin: 0.5em;
+}
+
+.navitem {
+    min-width: 35%;
+
+}
+
+.uppernav {
+    font-size: 1.1em;
+    position: relative;
+    text-align: center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

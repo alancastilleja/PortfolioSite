@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container bg-transparent" align="center">
+    <br>
+    <img src="{{url_for('static', filename='portrait.png')}}" width="200" height="300">
+</div>
+
+<div class="card-body" align="center">
+    <h2><font color="white">Jo Alan Castilleja</font></h2>
+    <br>
+    <h4><font class="under" color="white">Contact info</font></h4>
+    <br>
+    <p class="card-text d-flex justify-content-center flex-wrap">
+        <a href="mailto:jac2912@tamu.edu"><i class="fas fa-envelope-square icons"></i></a>
+        <a href="https://www.linkedin.com/in/jo-alan-castilleja/" target="_blank"><i class="fab fa-linkedin icons"></i></a>
+        <a href="https://github.com/alancastilleja" target="_blank"><i class="fab fa-github icons"></i></a>
+    </p>
+</div>
+
+
+
+
+
+
+{% endblock %}
